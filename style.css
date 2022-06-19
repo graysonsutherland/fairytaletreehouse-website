@@ -1,0 +1,38 @@
+body {
+    color: black;
+    text-align: center;
+    font-family: Papyrus;
+    background-image: url("/img/fern.webp");
+}
+
+img {
+    width: 60%;
+    height: auto;
+    border-radius:25px;  
+}
+
+section { 
+    animation: img 10000s linear infinite;
+  }
+
+@keyframes img {
+    
+    0%{
+        transform: scale(.9);
+        opacity: 0;
+    }
+    .010%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.logos {
+    width: 7%;
+    height: 7%;
+}
+
+
+
+
+
