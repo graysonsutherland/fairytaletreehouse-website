@@ -2,7 +2,7 @@ body {
     color: black;
     text-align: center;
     font-family: Papyrus;
-    background-image: url("/img/fern.webp");
+    background-image: url("fern.webp");
 }
 
 img {
